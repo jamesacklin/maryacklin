@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="post">
+  <div class="post-header">
+    <h2>{{page.title}}</h2>
+    {% if page.status == "SOLD" %}
+      <div class="price">
+        <p>
+          <span><s>{{page.price}}</s></span>
+          <span class="sold">{{page.status}}</span>
+        </p>
+      </div>
+    {% else %}
+      <div class="price">
+        <p>{{page.price}}</p>
+      </div>
+    {% endif %}
+  </div>
+  {{content}}
+  <div class="viewer">
+    <img src="{{site.url}}/img/{{page.slug}}/main.jpg">
+  </div>
+</article>

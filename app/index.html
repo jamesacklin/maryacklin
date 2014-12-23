@@ -1,0 +1,24 @@
+---
+layout: default
+title: Mary Acklin
+---
+
+<section class="thumbnails">
+  {% for post in site.posts %}
+    <div class="thumbnail">
+      <a href="{{post.url}}">
+        <img src="{{site.url}}/img/{{post.slug}}/thumb.jpg">
+        <div class="details">
+          <span>{{post.title}}</span>
+          {% if post.status == "SOLD" %}
+            <span><s>{{post.price}}</s></span>
+            <span class="sold">{{post.status}}</span>
+          {% else %}
+            <span>{{post.price}}</span>
+          {% endif %}
+        </div>
+      </a>
+    </div>
+
+  {% endfor %}
+</section>
