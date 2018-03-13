@@ -33,6 +33,6 @@ Thumbs.db
 *.zip
 
 # Other ignores #
-site
+_site
 node_modules
 .tmp
