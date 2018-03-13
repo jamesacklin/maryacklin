@@ -1,27 +1,19 @@
-# Jekyll configuration precedence:
-# 1. Gruntfile task
-# 2. config.build.yml
-# 3. config.yml
+title: Mary Acklin
+email: acklin.mary@gmail.com
+description: >-
+  Online portfolio and contact for Mary Acklin, professional writer and content strategist.
+baseurl: ""
+url: "http://www.maryacklin.com/"
+markdown: kramdown
 
-name: marypackett
-description: Mary Packett
-author:
-  name: James Acklin
-  email: james@acklindesign.com
-permalink: none
-
-# Grunt handles images and assets.
-exclude: ['img', 'css', 'js', 'fonts',
-          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
-
-include: ['.htaccess']
-
-# _config.build.yml sets future and show_drafts to false on `grunt build`
-future: true
-show_drafts: true
-
-# Markdown library
-markdown: redcarpet
-#   extensions: ['fenced_code_blocks', 'smart']
-
-pygments: false
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
