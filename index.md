@@ -9,4 +9,5 @@ Proactive and seasoned writer, marketer, and product development professional wi
 _Work samples available upon request.  
 Happily based in Pittsburgh, PA._
 
-&rarr; <a href="mailto:{{ site.email }}" class="link dark-blue no-underline underline-hover">Email Mary</a>
+- <a href="{{ site.baseurl }}{% link /files/Resume-MaryAcklin.pdf %}" class="link dark-blue no-underline underline-hover">Download R&eacute;sum&eacute;</a>
+- <a href="mailto:{{ site.email }}" class="link dark-blue no-underline underline-hover">Email Mary</a>
